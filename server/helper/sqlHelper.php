@@ -12,6 +12,7 @@ $db_password = "123456";
 
 $mysql = new mysqli($db_host,$db_user,$db_password,$db_name);
 if (mysqli_connect_errno()){
-    diediediedie("unable to connect!").mysqli_connect_errno();
+    die("unable to connect!").mysqli_connect_errno();
 }
 $mysql->set_charset("utf8");
+?>
