@@ -17,5 +17,6 @@ $postType = $_POST['if'];
 switch ($postType){
     case "Login" : require "api/Login.php";
         break;
+    case "Register":require "api/Register.php"
 }
 ?>
